@@ -34,20 +34,6 @@ Two derived classes (`PDFPrinter` and `ImagePrinter`) override this method to pr
 Definimos una clase base `Printer` con un método `Print()` marcado como `virtual`.  
 Dos clases derivadas (`PDFPrinter` e `ImagePrinter`) sobrescriben ese método con comportamientos distintos.
 
-    +-----------------------+
-    |         Printer       |
-    +-----------------------+
-    |      + Print(): void  | (virtual)
-    +-----------------------+
-       ^                ^
-       |                |
-+-------------+   +---------------+
-| PDFPrinter  |   | ImagePrinter  |
-+-------------+   +---------------+
-| + Print()   |   | + Print()     | (override)
-+-------------+   +---------------+
-
-
 ---
 
 ## ▶️ How to Run / Cómo Ejecutar

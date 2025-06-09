@@ -31,14 +31,6 @@ Esto promueve la reutilización de código y jerarquías lógicas.
 The `Animal` class defines a base structure with a method `MakeSound()`. The `Dog` class inherits from `Animal` and overrides that method.  
 La clase `Animal` define una estructura base con un método `MakeSound()`. La clase `Dog` hereda de `Animal` y sobrescribe ese método.
 
-+-----------------+           +------------------------+
-|   Animal        |<----------|           Dog          |
-+-----------------+           +------------------------+
-| + Name          |           |                        |
-| + MakeSound()   |           | + MakeSound() override |
-+-----------------+           +------------------------+
-
-
 ---
 
 ## ▶️ How to Run / Cómo Ejecutar

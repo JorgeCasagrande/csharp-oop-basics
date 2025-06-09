@@ -24,13 +24,6 @@ Permite tratar objetos como instancias del tipo base, ejecutando sin embargo su 
 - Referencias de clase base apuntando a objetos derivados
 - Enlace dinámico de métodos en tiempo de ejecución
 
-+-------------+     +-------------+     +-------------+
-|   Circle     |--->|   Shape     |<----|   Square    |
-+-------------+     +-------------+     +-------------+
-| + Draw()    |     | + Draw()    |     | + Draw()    |
-+-------------+     +-------------+     +-------------+
-
-
 ---
 
 ## 📁 Example Summary / Resumen del Ejemplo

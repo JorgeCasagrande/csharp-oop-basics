@@ -42,20 +42,6 @@ Then we implement `Car` and `Bike` classes that inherit from `Vehicle` and imple
 Definimos una clase abstracta `Vehicle` con un método concreto `StartEngine()` y uno abstracto `Drive()`.  
 Luego implementamos las clases `Car` y `Bike`, que heredan de `Vehicle` y completan el método `Drive()`.
 
-        <<abstract>> Vehicle
-        +------------------------+
-        |    + StartEngine()     |
-        |    + Drive(): void     | (abstract)
-        +------------------------+
-         ^                      ^
-         |                      |
-   +-----------+          +-----------+     
-   |   Car     |          |   Bike    |
-   +-----------+          +-----------+
-   | + Drive() |          | + Drive() |
-   +-----------+          +-----------+
-
-
 ---
 
 ## ▶️ How to Run / Cómo Ejecutar

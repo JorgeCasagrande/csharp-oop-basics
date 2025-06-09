@@ -37,18 +37,6 @@ Using a list of type `IPlayable`, we can execute `Play()` on different instrumen
 Definimos una interfaz `IPlayable` con un método `Play()`. Dos clases, `Guitarra` y `Piano`, implementan esta interfaz con su propia lógica. 
 Mediante una lista de `IPlayable`, ejecutamos `Play()` en distintos instrumentos, demostrando polimorfismo por interfaces.
 
-<<interface>> IPlayable
-+----------------------+
-|    + Play(): void    |
-+----------------------+
-      ^           ^
-      |           |
-+---------+   +---------+
-|  Guitar |   |  Piano  |
-+---------+   +---------+
-| + Play()|   | + Play()|
-+---------+   +---------+
-
 ---
 
 ## ▶️ How to Run / Cómo Ejecutar

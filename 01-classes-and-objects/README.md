@@ -38,17 +38,6 @@ Este ejemplo define una clase `Person` con dos propiedades: `Name` y `Age`, y do
 In `Main`, we create two objects (Alice and Bob), and we interact with them using their methods.  
 En `Main`, creamos dos objetos (Alice y Bob) y usamos sus métodos para interactuar con ellos.
 
-+----------------------+
-|       Person         |
-+----------------------+
-| - Name: string       |
-| - Age: int           |
-+----------------------+
-| + Person(name, age)  |
-| + Greet(): void      |
-| + HaveBirthday():void|
-+----------------------+
-
 ---
 
 ## ▶️ How to Run / Cómo Ejecutar
